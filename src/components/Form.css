@@ -1,0 +1,223 @@
+form {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+input {
+    max-width: 200px;
+    background-color: #F3F3F4;
+    font-family: "Nekst-Black";
+    font-size: 30px;
+    line-height: 36px;
+    color: #575757;
+    border: none;
+}
+
+
+#input {
+    width: 46px;
+    font-size: 20px;
+}
+
+
+.wrapper-input {
+    display: flex;
+    justify-content: space-between;
+    padding: 16px;
+    margin-top: 15px;
+    background: #F3F3F4;
+    border-radius: 16px;
+}
+
+#slider {
+    color: #FF9514;
+    width: 347px;
+    position: absolute;
+    bottom: 0px;
+    left: 42px;
+    padding: 0;
+}
+
+
+.titel-text {
+    font-family: "Gilroy";
+    font-size: 16px;
+    line-height: 20px;
+    color: #333333;
+}
+
+.number {
+    font-family: "Nekst-Black";
+    font-size: 54px;
+    line-height: 90%;
+    color: #333333;
+}
+
+.wrapper-sum {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 45px;
+}
+
+
+#input-proc {
+    width: 40px;
+}
+
+.R {
+    font-family: "Nekst-Black";
+    font-size: 30px;
+    line-height: 36px;
+    color: #575757; 
+}
+
+.R1 {
+    font-family: "Nekst-Black";
+    font-size: 20px;
+    line-height: 36px;
+    color: #575757;
+}
+
+#button {
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 36px;
+
+    width: 426px;
+    height: 68px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px 12px;
+    gap: 10px;
+    background-color: #FF9514;
+    border-radius: 40px;
+}
+
+
+
+@media (max-width: 1440px) {
+    .App {
+        max-width: 1024px;
+        align-items: center;
+    }
+
+    .titel {
+        margin: 32px 295px 32px 43px;
+    }
+
+    form {
+        flex-direction: column;
+    }
+    
+    .wrapper-input {
+        width: 928px;
+    }
+
+    label {
+        margin-top: 20px;
+    }
+
+    #slider {
+        width: 845px;
+    }
+
+    .wrapper-sum {
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+    #button {
+        margin-top: 60px;
+    }
+
+    .payment {
+        margin-left: 213px;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .App {
+        max-width: 768px;
+    }
+
+    .wrapper-input {
+        width: 694px;
+    }
+
+    #slider {
+        width: 610px;
+    }
+
+    .titel {
+        margin: 0;
+        margin-top: 50px;
+    }
+
+    .payment {
+        margin-left: 180px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .App {
+        max-width: 350px;
+        align-items: baseline;
+    }
+
+    .titel {
+        width: 279px;
+        font-size: 34px;
+    }
+
+    .wrapper-input {
+        width: 280px;
+    }
+
+    #slider {
+        width: 240px;
+        left: 23px;
+    }
+
+    .R {
+        font-size: 22px;
+    }
+
+    input {
+        font-size: 22px;
+    }
+
+    #input {
+        font-size: 22px;
+    }
+
+    .number {
+        font-size: 22px;
+        margin-top: 7px;
+    }
+
+    #button {
+        width: 280px;
+        font-size: 15px;
+        margin-top: 25px;
+    }
+
+    .wrapper-sum {
+        flex-direction: column;
+        align-items: flex-start;
+        width: 320px;
+    }
+
+    .payment {
+        margin: 0;
+        margin-top: 20px;
+    }
+
+    #box {
+        width: 320px;
+    }
+}

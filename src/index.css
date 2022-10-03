@@ -1,5 +1,26 @@
-body {
+@font-face {
+  font-family: "Nekst-Black";
+  src: url(./fonts/Nekst-Black.woff2);
+  font-style: normal;
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Gilroy";
+  src: url(./fonts/Gilroy-Regular.woff2);
+  font-style: normal;
+  font-weight: 400;
+}
+
+* {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  margin: 0 auto;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +31,15 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
 }
